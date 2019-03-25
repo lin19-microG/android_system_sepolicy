@@ -1232,3 +1232,6 @@ ro.bootanim.quiescent.enabled u:object_r:bootanim_config_prop:s0 exact bool
 
 # dck properties
 ro.gms.dck.eligible_wcc u:object_r:dck_prop:s0 exact int
+
+# Privacy settings of microG build
+persist.privacy.        u:object_r:system_prop:s0

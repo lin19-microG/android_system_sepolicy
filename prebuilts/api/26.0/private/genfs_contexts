@@ -14,8 +14,10 @@ genfscon proc /cpuinfo u:object_r:proc_cpuinfo:s0
 genfscon proc /softirqs u:object_r:proc_timer:s0
 genfscon proc /stat u:object_r:proc_stat:s0
 genfscon proc /sysrq-trigger u:object_r:proc_sysrq:s0
+genfscon proc /sys/fs/protected_fifos u:object_r:proc_security:s0
 genfscon proc /sys/fs/protected_hardlinks u:object_r:proc_security:s0
 genfscon proc /sys/fs/protected_symlinks u:object_r:proc_security:s0
+genfscon proc /sys/fs/protected_regular u:object_r:proc_security:s0
 genfscon proc /sys/fs/suid_dumpable u:object_r:proc_security:s0
 genfscon proc /sys/kernel/core_pattern u:object_r:usermodehelper:s0
 genfscon proc /sys/kernel/dmesg_restrict u:object_r:proc_security:s0

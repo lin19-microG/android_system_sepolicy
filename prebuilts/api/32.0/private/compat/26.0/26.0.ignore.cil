@@ -225,7 +225,10 @@
     wpantund_exec
     wpantund_service
     wpantund_tmpfs
-    wm_trace_data_file))
+    wm_trace_data_file
+    z_iptables
+    z_iptables_exec
+    z_iptables_tmpfs))
 
 ;; private_objects - a collection of types that were labeled differently in
 ;;     older policy, but that should not remain accessible to vendor policy.

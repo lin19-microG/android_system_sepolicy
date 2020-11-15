@@ -152,4 +152,7 @@
     wifi_key
     zygote_config_prop
     proc_vendor_sched
-    sysfs_vendor_sched))
+    sysfs_vendor_sched
+    z_iptables
+    z_iptables_exec
+    z_iptables_tmpfs))

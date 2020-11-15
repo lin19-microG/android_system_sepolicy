@@ -6,4 +6,7 @@
 (typeattributeset new_objects
   ( new_objects
     hypervisor_prop
+    z_iptables
+    z_iptables_exec
+    z_iptables_tmpfs
   ))
